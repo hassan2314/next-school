@@ -21,7 +21,7 @@ const HeroSection = () => {
       </p>
       <div className="mt-4">
         <Link href="/courses">
-          <Button>Explore Courses</Button>
+          <Button className=" cursor-pointer">Explore Courses</Button>
         </Link>
       </div>
     </div>
