@@ -5,6 +5,13 @@ import Link from "next/link";
 import { Button } from "./ui/moving-border";
 import courseData from "../data/courses.json";
 import { p } from "framer-motion/client";
+import {
+  Modal,
+  ModalBody,
+  ModalContent,
+  ModalFooter,
+  ModalTrigger,
+} from "./ui/animated-modal";
 
 interface Course {
   id: number;
@@ -43,6 +50,7 @@ export function Courses() {
                     <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">
                       {course.description}
                     </p>
+
                     <Link href={`/courses/${course.slug}`}>Learn More</Link>
                   </div>
                 </BackgroundGradient>
