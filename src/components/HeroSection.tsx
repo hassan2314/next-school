@@ -16,8 +16,8 @@ const HeroSection = () => {
       </div>
       <p className="mt-4 font-normal text-center text-base md:text-lg text-neutral-300 max-w-lg mx-auto p-4 md:p-0">
         Dive into our comprehensive programming courses and transform your
-        carrer journey today. Whether you're a beginner or looking to refine
-        your skills, join us to unlock your true potential.
+        carrer journey today. Whether you&apos;re a beginner or looking to
+        refine your skills join us to unlock your true potential.
       </p>
       <div className="mt-4">
         <Link href="/courses">
